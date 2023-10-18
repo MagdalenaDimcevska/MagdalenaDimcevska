@@ -7,10 +7,12 @@ public class kruznica {
 			double p,l;
 			System.out.println("Programata presmetuva perimetar i plostina na kruznica");
 			Scanner tastatura = new Scanner(System.in);
+			System.out.println("radium e");
 			double r = tastatura.nextDouble();
-			System.out.println("radium e"+r+"cm");
+			System.out.println(r+"cm");
+			System.out.println("pi e");
 			double pi = tastatura.nextDouble();
-			System.out.println("pi e"+pi+"cm");
+			System.out.println(pi+"cm");
 			System.out.println();
 			p=r*r*pi;
 			System.out.println("plostinata e"+p);
