@@ -16,9 +16,9 @@ public class triagolnik {
 			else {
 				System.out.println("Ne se formira triagolnik");
 				System.exit(0);}
-		if(c*c==a*a+b*b)
+		if(c*c==a*a+b*b  || a*a==c*c+b*b  || b*b==c*c+a*a)
 			System.out.println("triagolnikot e pravoagolen");
-		else if ( c*c>a*a+b*b )
+		else if ( c*c<a*a+b*b  || a*a<c*c+b*b  || b*b<c*c+a*a )
 			System.out.println("triagolnikot e ostroagolen");
 		else
 			System.out.println("triagolnikot e tapoagolen");
