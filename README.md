@@ -1,0 +1,4 @@
+- 👋 Hi, I’m @MagdalenaDimcevska
+- 👀 I’m interested in java
+- 🌱 I’m currently learning java
+- 📫 How to reach me: magdalenadimcevska1234@gmail.com
